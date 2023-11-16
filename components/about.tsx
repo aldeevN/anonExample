@@ -24,9 +24,9 @@ export default function About() {
         Learning how people hide things and where people are likely to look
       </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
+        <span className="italic">When I&aposm not coding</span>, I enjoy playing
         video games, listening music, and read. <br />
-        I'm also
+        I&aposm also
         learning how to play the guitar and ukulel.
       </p>
     </motion.section>
