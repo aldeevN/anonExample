@@ -30,15 +30,6 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            {/* <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
-              alt="Ricardo portrait"
-              width="192"
-              height="192"
-              quality="95"
-              priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            /> */}
           </motion.div>
 
           <motion.span
@@ -62,9 +53,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&aposm Aldeev Nurgali.</span> I&aposm a{" "}
-        <span className="font-bold">front-end developer</span>{" "}
-        I enjoy building <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="font-bold">Привет, Я Алдеев Нургали.</span><hr />
+        Я <span className="font-bold">front-end developer</span>{" "}
+        Я програмирую <span className="italic">сайты и веб-приложения</span>.
+        Мой приоритет {" "}
         <span className="underline">React (Next.js)</span>.
       </motion.h1>
 
@@ -84,17 +76,17 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Напишите мне{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="https://drive.google.com/file/d/13UwBUHu4lg3YDFmcvfZd_rl3310vI-fo/view?usp=sharing"
+          href="https://krasnodar.hh.ru/resume/22a6f98cff0c09e70a0039ed1f71424b697967"
           download
         >
-          Download CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          Мое резюме{" "}
+          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </a>
 
         {/* <a

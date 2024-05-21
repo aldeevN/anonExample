@@ -17,18 +17,19 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Обо мне</SectionHeading>
       <p className="mb-3">
-        I love the entire process of developing creative websites.
-        I love the challenge of finding caches and spending time to meet new people
-        Learning how people hide things and where people are likely to look
+        “Я — React-разроботчик с опытом в нескольких коммерческих проектах.
+      </p><p>Активно участвую в бизнес жизни продукта, вникаю в предметную область при разработке.
+        Разбирался в алгоритмах по книге Бхаргава А. "Грокаем алгоритмы" и закреплял их на leetcode.
       </p>
-      <p>
-        <span className="italic">When I&aposm not coding</span>, I enjoy playing
-        video games, listening music, and read. <br />
-        I&aposm also
-        learning how to play the guitar and ukulel.
-      </p>
+      <p>Углублял знания JavaScript по Эдди Османи "Learning JavaScript Design Patterns". Обладаю знаниями НТМL
+        CSS и JavaScript, а также опытом работы с популярными Фреймворками,
+        такими как React .</p>
+      <p>Опыт работы в стартапе научил меня быть гибким в принятии
+        решений и готовым к любым вызовам, которые может предложить
+        проект.</p>
+
     </motion.section>
   );
 }
