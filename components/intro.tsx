@@ -54,7 +54,7 @@ export default function Intro() {
       >
         <span className="font-bold">Привет, Я Алдеев Нургали.</span><hr />
         Я <span className="font-bold">front-end developer</span>{" "}
-        Я програмирую <span className="italic">сайты и веб-приложения</span>.
+        Я программирую  <span className="italic">сайты и веб-приложения</span>.
         Мой приоритет {" "}
         <span className="underline">React (Next.js)</span>.
       </motion.h1>
