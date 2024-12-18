@@ -34,7 +34,7 @@ export default function Contact() {
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Можно сюда{" "}
         <a className="underline" href="mailto:example@gmail.com">
-          aldeev33@gmail.com
+          to alex
         </a>{" "}
         или через форму.
       </p>
