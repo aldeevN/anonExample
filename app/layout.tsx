@@ -9,7 +9,7 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AldeevN Portfolio",
+  title: "KIberOne",
 };
 
 export default function RootLayout({
